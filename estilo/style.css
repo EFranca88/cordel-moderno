@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Sriracha;
+    src: url(../fontes/Sriracha/Sriracha-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Passion One';
+    src: url(../fontes/Passion_One/PassionOne-Bold.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    padding: 100px 0px;
+    color: white;
+}
+header > h1 {
+    font-family: 'Passion One', sans-serif;
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: white;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: Sriracha, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.5vw;
+}
+.sectionflower{
+    background-image: url(../imagens/joaninha-angelo-casto-MrDSEMZsBnM-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+}
+.sectionflower > p {
+    color: white;
+    max-width: 50%;
+    background-color: rgba(0, 0, 0, 0.482);
+    text-shadow: 1px 1px black;
+}
+.sectionbook {
+    background-image: url(../imagens/livro-aaron-burden-CKlHKtCJZKk-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+}
+.sectionbook > p {
+    color: white;
+    max-width: 50%;
+    background-color: rgba(0, 0, 0, 0.482);
+    text-shadow: 1px 1px black;
+}
+
+footer {
+    background-color: black;
+}
+footer > p {
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
