@@ -1,7 +1,7 @@
 FROM httpd:latest
 WORKDIR /usr/local/apache2/htdocs/
-COPY index.html /usr/local/apache2/htdocs/
-COPY estilo /usr/local/apache2/htdocs/
-COPY fontes /usr/local/apache2/htdocs/
-COPY imagens /usr/local/apache2/htdocs/
-EXPOSE 8051
+COPY index.html /usr/local/apache2/htdocs/ \
+    estilo /usr/local/apache2/htdocs/ \
+    fontes /usr/local/apache2/htdocs/ \
+    imagens /usr/local/apache2/htdocs/
+EXPOSE 80
